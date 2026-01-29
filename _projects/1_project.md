@@ -4,7 +4,7 @@ title: Semantic Annotation of LiDAR Data
 description: Bridging the gap between raw depth data and semantic understanding using Foundation Models.
 img: assets/img/projects/MiR_Robot.jpeg
 importance: 1
-category: University
+category: work
 ---
 
 ### The Challenge
