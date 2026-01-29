@@ -34,7 +34,7 @@ Currently, I am a Master's student at **Syddansk Universitet (SDU)** in Odense, 
 ### Research & Work Experience
 My background includes hands-on experience in both industrial and research environments:
 * **SDU (HospiBot Project):** As a Robot Programmer, I worked on robotic mobile platforms for hospitals, focusing on PID controller reliability and developing image-based recognition pipelines for human-robot interaction.
-* **e Talgo:** Developed a Python-based testing tool from scratch to monitor train system responses using UDP and TCP sockets.
+* **Talgo:** Developed a Python-based testing tool from scratch to monitor train system responses using UDP and TCP sockets.
 * **Siemens:** Gained experience in CNC programming and mechanical design using SINUMERIK and Siemens NX.
 
 ### Skills & Interests
