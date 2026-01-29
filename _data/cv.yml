@@ -2,7 +2,7 @@ cv:
   name: Alberto Vicente Chacón
   label: Robotics and AI Engineer
   email: alberto.vicentechacon@gmail.com
-  location: Odense, Denmark
+  location: "Odense, Denmark"
   image: prof_pic.jpg
   summary: I am a robotics engineer driven by the goal of using technology to make the world better, with a specialized focus on robotics software, AI reliability, and uncertainty estimation.
 
@@ -48,7 +48,7 @@ cv:
           - "Reworked PID controllers and designed custom voltage management circuits."
           - "Developed an image-based recognition pipeline for a humanoid robot to track human engagement."
 
-      - company: e Talgo
+      - company: Talgo
         position: Software Engineering Internship
         location: Madrid, Spain
         start_date: 2024-04-01
@@ -58,6 +58,7 @@ cv:
 
       - company: Siemens
         position: Electronic Engineering Internship
+        location: Madrid, Spain
         start_date: 2023-01-01
         end_date: 2023-12-01
         highlights:
@@ -91,8 +92,10 @@ cv:
         summary: "A2 (Modul 2)"
       - name: Japanese
         summary: "Basics (JLPT N4)"
+      - name: Italian
+        summary: "Basics"
 
-    Volunteer:
+    Volunteering:
       - company: "Unidos por la paz"
         position: Guitarist
         summary: Participated in charity concerts for peace.
