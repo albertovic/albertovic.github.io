@@ -1,189 +1,100 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  [cite_start]name: Alberto Vicente Chacón [cite: 1]
+  [cite_start]label: Robotics and AI Engineer [cite: 2]
+  [cite_start]email: alberto.vicentechacon@gmail.com [cite: 5]
+  [cite_start]location: Odense, Denmark [cite: 6]
+  image: prof_pic.jpg
+  [cite_start]summary: I am a robotics engineer driven by the goal of using technology to make the world better, with a specialized focus on robotics software, AI reliability, and uncertainty estimation. [cite: 25, 70, 77]
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: your-github-username
     - network: LinkedIn
-      username: example
+      [cite_start]username: alberto-vicente-chacon [cite: 7]
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    [cite_start]city: Odense [cite: 6]
+    [cite_start]countryCode: DK [cite: 6]
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - [cite_start]institution: Syddansk Universitet (SDU) [cite: 61]
+        [cite_start]location: Odense, Denmark [cite: 6]
+        [cite_start]area: Robot Systems (Advanced Robotics Technology) [cite: 60]
+        [cite_start]studyType: MSc [cite: 60]
+        [cite_start]start_date: 2024 [cite: 62]
+        [cite_start]end_date: Present [cite: 62]
+        [cite_start]summary: Focus on Machine Learning, Image Processing, and Software Architecture for autonomous systems. [cite: 65-69]
         highlights:
-          - Description 1.
-          - Description 2.
+          - [cite_start]"Master's Thesis: Researching Uncertainty Estimation in Deep Neural Networks using Evidential Deep Learning in PyTorch." [cite: 70-71]
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - [cite_start]institution: Universidad Politécnica de Madrid (UPM) [cite: 73]
+        [cite_start]location: Madrid, Spain [cite: 75]
+        [cite_start]area: Electronics and Automation Engineering [cite: 72]
+        [cite_start]studyType: Bachelor [cite: 72]
+        [cite_start]start_date: 2019 [cite: 74]
+        [cite_start]end_date: 2024 [cite: 74]
         highlights:
-          - Description 1.
-          - Description 2.
+          - [cite_start]"Specialized in industrial control systems, electronic circuits, and embedded systems." [cite: 76-78]
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - [cite_start]company: Syddansk Universitet (SDU) [cite: 32]
+        [cite_start]position: Robot Programmer [cite: 33]
+        [cite_start]location: Odense, Denmark [cite: 6]
+        [cite_start]start_date: 2024-08-01 [cite: 34]
+        [cite_start]end_date: 2025-11-01 [cite: 34]
+        [cite_start]summary: Worked on the HospiBot European project focusing on mobile platforms and human-robot interaction. [cite: 35-38]
         highlights:
-          - Relativity
-          - Description 2.
+          - [cite_start]"Reworked PID controllers and designed custom voltage management circuits." [cite: 37]
+          - [cite_start]"Developed an image-based recognition pipeline for a humanoid robot to track human engagement." [cite: 39]
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - [cite_start]company: e Talgo [cite: 40]
+        [cite_start]position: Software Engineering Internship [cite: 41]
+        [cite_start]location: Madrid, Spain [cite: 75]
+        [cite_start]start_date: 2024-04-01 [cite: 42]
+        [cite_start]end_date: 2024-08-01 [cite: 42]
         highlights:
-          - Description 1.
-          - Description 2.
+          - [cite_start]"Built a Python-based testing tool from scratch to monitor train system responses using UDP and TCP sockets." [cite: 43-45]
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - [cite_start]company: Siemens [cite: 51]
+        [cite_start]position: Electronic Engineering Internship [cite: 52]
+        [cite_start]start_date: 2023-01-01 [cite: 53]
+        [cite_start]end_date: 2023-12-01 [cite: 54]
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - [cite_start]"Programmed workpieces using SINUMERIK, SinuTrain, and Run MyVirtual Machine." [cite: 56]
+          - [cite_start]"Designed parts and simulated manufacturing processes using Siemens NX." [cite: 57]
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - [cite_start]name: Self-Taught ROS2 & Omnidirectional Robotics [cite: 81]
+        [cite_start]summary: Independent project to master robot middleware and navigation. [cite: 82]
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - [cite_start]"Designed and built a prototype for an omnidirectional robot." [cite: 83]
+          - [cite_start]"Implemented motor control and sensor integration." [cite: 84]
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - [cite_start]name: Custom 3D Printer Build [cite: 86]
+        [cite_start]summary: Built a high-precision 3D printer from individual components to understand mechanical calibration. [cite: 87-89]
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - [cite_start]name: Robotics & Software [cite: 16]
+        level: Advanced
+        [cite_start]keywords: "Python, C++, ROS/ROS2, Gazebo, PyTorch, Linux, Docker, Git" [cite: 17-23, 106-108]
+      - [cite_start]name: Engineering Tools [cite: 95]
+        level: Intermediate
+        [cite_start]keywords: "URDF/SDF, MuJoCo, VHDL, 3D Printing, Siemens NX" [cite: 20-22, 97-101]
+
+    Languages:
+      - [cite_start]name: Spanish [cite: 9]
+        [cite_start]summary: "Native" [cite: 9]
+      - [cite_start]name: English [cite: 10]
+        [cite_start]summary: "Fluent (IELTS grade 8)" [cite: 11]
+      - [cite_start]name: Danish [cite: 13]
+        [cite_start]summary: "A2 (Modul 2)" [cite: 13]
+      - [cite_start]name: Japanese [cite: 15]
+        [cite_start]summary: "Basics (JLPT N4)" [cite: 15]
+
+    Volunteer:
+      - [cite_start]company: "Unidos por la paz" [cite: 49]
+        [cite_start]position: Guitarist [cite: 49]
+        [cite_start]summary: Participated in charity concerts for peace. [cite: 48-49]
+      - [cite_start]company: Children's association [cite: 50]
+        [cite_start]position: Youth Group Leader [cite: 50]
