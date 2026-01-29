@@ -1,81 +1,35 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Semantic Annotation of LiDAR Data
+description: Bridging the gap between raw depth data and semantic understanding using Foundation Models.
+img: assets/img/projects/MiR_Robot.jpeg
 importance: 1
-category: work
-related_publications: true
+category: University
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### The Challenge
+Standard 2D LiDAR maps are great for geometry, but they are "blind" to context. A robot sees a wall and a person as the same type of obstacle: a static line of points. In this project, we wanted to fix that by "painting" semantic labels from an RGB camera onto the LiDAR point cloud.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### My Role & Technical Approach
+I took point on the **sensor calibration** and the **SAM 3 (Segment Anything Model)** integration. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+* **The Math Behind the Fusion:** I handled the intrinsic camera calibration using OpenCV and an ARUCO checkerboard. This was critical—if your focal lengths or distortion coefficients are off, the LiDAR points won't align with the pixels, and the whole "painting" process fails.
+* **Deploying Foundation Models:** I integrated Meta’s **SAM 3** to handle the heavy lifting of segmentation. Since we were working on a laptop with only 8GB of VRAM, I had to get creative with resource management to prevent the pipeline from crashing.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Solving the Memory Problem
+You can't just run a massive Vision Transformer (ViT) on mobile hardware without a plan. I implemented two main strategies to keep the VRAM usage under control:
+1. **Resolution Scaling:** I downscaled the input images, which gave us a massive 44% saving on activation memory.
+2. **Feature Caching:** Since the visual features of a frame don't change regardless of what you're looking for, I cached the heavy image embeddings. This allowed us to query multiple labels (like "person" then "table") using only the lightweight mask decoder, keeping the VRAM usage flat.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### The Results
+We compared **SAM 3** against **YOLOv11**. While YOLO was faster (real-time at 24 FPS), SAM 3 was significantly more accurate, with a **30% improvement in segmentation fidelity**. For a mapping mission where you care more about a clean map than moving fast, the trade-off was worth it.
 
-{% raw %}
+### What I Took Away
+This wasn't just about making a cool demo. It taught me how to:
+* Handle the geometric reality of sensor fusion (Rotation and Translation matrices aren't just for textbooks).
+* Optimize cutting-edge AI models for hardware that isn't a server-grade GPU.
+* Work in a fast-paced team to solve a real industrial challenge.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+[Download our Full Technical Report]({{ '/assets/pdf/EIA_Project.pdf' | relative_url }})

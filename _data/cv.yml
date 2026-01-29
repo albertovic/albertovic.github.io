@@ -95,9 +95,9 @@ cv:
       - name: Italian
         summary: "Basics"
 
-    Volunteering:
+    Volunteer:
       - company: "Unidos por la paz"
-        position: Guitarist
-        summary: Participated in charity concerts for peace.
-      - company: Children's association
-        position: Youth Group Leader
+        position: Volunteering as Guitarist
+        summary: Participated in charity concerts named "Unidos por la paz" for the Vicente Ferrer Foundation.
+      - company: Children's association in my hometown
+        position: Volunteering as Youth Group Leader
