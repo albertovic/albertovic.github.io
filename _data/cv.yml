@@ -23,7 +23,7 @@ cv:
         area: Robot Systems (Advanced Robotics Technology)
         studyType: MSc
         start_date: 2024
-        end_date: Present
+        end_date: "present"
         summary: Focus on Machine Learning, Image Processing, and Software Architecture for autonomous systems.
         highlights:
           - "Master's Thesis: Researching Uncertainty Estimation in Deep Neural Networks using Evidential Deep Learning in PyTorch."
