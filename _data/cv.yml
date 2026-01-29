@@ -1,100 +1,100 @@
 cv:
-  [cite_start]name: Alberto Vicente Chacón [cite: 1]
-  [cite_start]label: Robotics and AI Engineer [cite: 2]
-  [cite_start]email: alberto.vicentechacon@gmail.com [cite: 5]
-  [cite_start]location: Odense, Denmark [cite: 6]
+  name: Alberto Vicente Chacón
+  label: Robotics and AI Engineer
+  email: alberto.vicentechacon@gmail.com
+  location: Odense, Denmark
   image: prof_pic.jpg
-  [cite_start]summary: I am a robotics engineer driven by the goal of using technology to make the world better, with a specialized focus on robotics software, AI reliability, and uncertainty estimation. [cite: 25, 70, 77]
+  summary: I am a robotics engineer driven by the goal of using technology to make the world better, with a specialized focus on robotics software, AI reliability, and uncertainty estimation.
 
   social_networks:
     - network: GitHub
-      username: your-github-username
+      username: albertovic
     - network: LinkedIn
-      [cite_start]username: alberto-vicente-chacon [cite: 7]
+      username: alberto-vicente-chacon
 
   address:
-    [cite_start]city: Odense [cite: 6]
-    [cite_start]countryCode: DK [cite: 6]
+    city: Odense
+    countryCode: DK
 
   sections:
     Education:
-      - [cite_start]institution: Syddansk Universitet (SDU) [cite: 61]
-        [cite_start]location: Odense, Denmark [cite: 6]
-        [cite_start]area: Robot Systems (Advanced Robotics Technology) [cite: 60]
-        [cite_start]studyType: MSc [cite: 60]
-        [cite_start]start_date: 2024 [cite: 62]
-        [cite_start]end_date: Present [cite: 62]
-        [cite_start]summary: Focus on Machine Learning, Image Processing, and Software Architecture for autonomous systems. [cite: 65-69]
+      - institution: Syddansk Universitet (SDU)
+        location: Odense, Denmark
+        area: Robot Systems (Advanced Robotics Technology)
+        studyType: MSc
+        start_date: 2024
+        end_date: Present
+        summary: Focus on Machine Learning, Image Processing, and Software Architecture for autonomous systems.
         highlights:
-          - [cite_start]"Master's Thesis: Researching Uncertainty Estimation in Deep Neural Networks using Evidential Deep Learning in PyTorch." [cite: 70-71]
+          - "Master's Thesis: Researching Uncertainty Estimation in Deep Neural Networks using Evidential Deep Learning in PyTorch."
 
-      - [cite_start]institution: Universidad Politécnica de Madrid (UPM) [cite: 73]
-        [cite_start]location: Madrid, Spain [cite: 75]
-        [cite_start]area: Electronics and Automation Engineering [cite: 72]
-        [cite_start]studyType: Bachelor [cite: 72]
-        [cite_start]start_date: 2019 [cite: 74]
-        [cite_start]end_date: 2024 [cite: 74]
+      - institution: Universidad Politécnica de Madrid (UPM)
+        location: Madrid, Spain
+        area: Electronics and Automation Engineering
+        studyType: Bachelor
+        start_date: 2019
+        end_date: 2024
         highlights:
-          - [cite_start]"Specialized in industrial control systems, electronic circuits, and embedded systems." [cite: 76-78]
+          - "Specialized in industrial control systems, electronic circuits, and embedded systems."
 
     Experience:
-      - [cite_start]company: Syddansk Universitet (SDU) [cite: 32]
-        [cite_start]position: Robot Programmer [cite: 33]
-        [cite_start]location: Odense, Denmark [cite: 6]
-        [cite_start]start_date: 2024-08-01 [cite: 34]
-        [cite_start]end_date: 2025-11-01 [cite: 34]
-        [cite_start]summary: Worked on the HospiBot European project focusing on mobile platforms and human-robot interaction. [cite: 35-38]
+      - company: Syddansk Universitet (SDU)
+        position: Robot Programmer
+        location: Odense, Denmark
+        start_date: 2024-08-01
+        end_date: 2025-11-01
+        summary: Worked on the HospiBot European project focusing on mobile platforms and human-robot interaction.
         highlights:
-          - [cite_start]"Reworked PID controllers and designed custom voltage management circuits." [cite: 37]
-          - [cite_start]"Developed an image-based recognition pipeline for a humanoid robot to track human engagement." [cite: 39]
+          - "Reworked PID controllers and designed custom voltage management circuits."
+          - "Developed an image-based recognition pipeline for a humanoid robot to track human engagement."
 
-      - [cite_start]company: e Talgo [cite: 40]
-        [cite_start]position: Software Engineering Internship [cite: 41]
-        [cite_start]location: Madrid, Spain [cite: 75]
-        [cite_start]start_date: 2024-04-01 [cite: 42]
-        [cite_start]end_date: 2024-08-01 [cite: 42]
+      - company: e Talgo
+        position: Software Engineering Internship
+        location: Madrid, Spain
+        start_date: 2024-04-01
+        end_date: 2024-08-01
         highlights:
-          - [cite_start]"Built a Python-based testing tool from scratch to monitor train system responses using UDP and TCP sockets." [cite: 43-45]
+          - "Built a Python-based testing tool from scratch to monitor train system responses using UDP and TCP sockets."
 
-      - [cite_start]company: Siemens [cite: 51]
-        [cite_start]position: Electronic Engineering Internship [cite: 52]
-        [cite_start]start_date: 2023-01-01 [cite: 53]
-        [cite_start]end_date: 2023-12-01 [cite: 54]
+      - company: Siemens
+        position: Electronic Engineering Internship
+        start_date: 2023-01-01
+        end_date: 2023-12-01
         highlights:
-          - [cite_start]"Programmed workpieces using SINUMERIK, SinuTrain, and Run MyVirtual Machine." [cite: 56]
-          - [cite_start]"Designed parts and simulated manufacturing processes using Siemens NX." [cite: 57]
+          - "Programmed workpieces using SINUMERIK, SinuTrain, and Run MyVirtual Machine."
+          - "Designed parts and simulated manufacturing processes using Siemens NX."
 
     Projects:
-      - [cite_start]name: Self-Taught ROS2 & Omnidirectional Robotics [cite: 81]
-        [cite_start]summary: Independent project to master robot middleware and navigation. [cite: 82]
+      - name: Self-Taught ROS2 & Omnidirectional Robotics
+        summary: Independent project to master robot middleware and navigation.
         highlights:
-          - [cite_start]"Designed and built a prototype for an omnidirectional robot." [cite: 83]
-          - [cite_start]"Implemented motor control and sensor integration." [cite: 84]
+          - "Designed and built a prototype for an omnidirectional robot."
+          - "Implemented motor control and sensor integration."
 
-      - [cite_start]name: Custom 3D Printer Build [cite: 86]
-        [cite_start]summary: Built a high-precision 3D printer from individual components to understand mechanical calibration. [cite: 87-89]
+      - name: Custom 3D Printer Build
+        summary: Built a high-precision 3D printer from individual components to understand mechanical calibration.
 
     Skills:
-      - [cite_start]name: Robotics & Software [cite: 16]
+      - name: Robotics & Software
         level: Advanced
-        [cite_start]keywords: "Python, C++, ROS/ROS2, Gazebo, PyTorch, Linux, Docker, Git" [cite: 17-23, 106-108]
-      - [cite_start]name: Engineering Tools [cite: 95]
+        keywords: "Python, C++, ROS/ROS2, Gazebo, PyTorch, Linux, Docker, Git"
+      - name: Engineering Tools
         level: Intermediate
-        [cite_start]keywords: "URDF/SDF, MuJoCo, VHDL, 3D Printing, Siemens NX" [cite: 20-22, 97-101]
+        keywords: "URDF/SDF, MuJoCo, VHDL, 3D Printing, Siemens NX"
 
     Languages:
-      - [cite_start]name: Spanish [cite: 9]
-        [cite_start]summary: "Native" [cite: 9]
-      - [cite_start]name: English [cite: 10]
-        [cite_start]summary: "Fluent (IELTS grade 8)" [cite: 11]
-      - [cite_start]name: Danish [cite: 13]
-        [cite_start]summary: "A2 (Modul 2)" [cite: 13]
-      - [cite_start]name: Japanese [cite: 15]
-        [cite_start]summary: "Basics (JLPT N4)" [cite: 15]
+      - name: Spanish
+        summary: "Native"
+      - name: English
+        summary: "Fluent (IELTS grade 8)"
+      - name: Danish
+        summary: "A2 (Modul 2)"
+      - name: Japanese
+        summary: "Basics (JLPT N4)"
 
     Volunteer:
-      - [cite_start]company: "Unidos por la paz" [cite: 49]
-        [cite_start]position: Guitarist [cite: 49]
-        [cite_start]summary: Participated in charity concerts for peace. [cite: 48-49]
-      - [cite_start]company: Children's association [cite: 50]
-        [cite_start]position: Youth Group Leader [cite: 50]
+      - company: "Unidos por la paz"
+        position: Guitarist
+        summary: Participated in charity concerts for peace.
+      - company: Children's association
+        position: Youth Group Leader
