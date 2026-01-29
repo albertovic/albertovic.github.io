@@ -32,4 +32,4 @@ This wasn't just about making a cool demo. It taught me how to:
 * Optimize cutting-edge AI models for hardware that isn't a server-grade GPU.
 * Work in a fast-paced team to solve a real industrial challenge.
 
-[Download our Full Technical Report]({{ '/assets/pdf/EIA_Project.pdf' | relative_url }})
+[Download our Full Technical Report]({% link assets/pdf/EIA_Project.pdf %})
